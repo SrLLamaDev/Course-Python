@@ -1,3 +1,6 @@
+'''
+Este programa muestra el mínimo y el máximo de cinco números ingresados por el usuario.
+'''
 # Pedir al usuario que ingrese cinco números separados por espacio
 numeros = list(map(int, input("Ingrese cinco números: ").split()))
 
