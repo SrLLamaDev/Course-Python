@@ -581,15 +581,15 @@ def Z():
     
     
 turtle.setup(1100,900)
-turtle.bgcolor('black')
+turtle.bgcolor('yellow')
 turtle.color("red")
 turtle.speed(7)
 
 turtle.penup()
 turtle.goto(-300, 300)
 turtle.pendown()
-turtle.pensize(3)  # Configurar el grosor del pincel
-turtle.speed(100)
+turtle.pensize(5)  # Configurar el grosor del pincel
+turtle.speed(100)   # Velocidad de dibujo
 A() 
 B()
 C()
