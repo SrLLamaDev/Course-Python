@@ -97,16 +97,16 @@ def draw_oval(color, x, y):
         turtle.circle(100, 90)
     turtle.end_fill()
 
-turtle.speed(3)
+turtle.speed(50)
 
-draw_triangle("blue", -250, 100)
+draw_triangle("blue", -250, 50)
 draw_square("red", -100, 150)
 draw_rectangle("yellow", 50, 150)
-draw_circle("green", 200, 150, 50)
+draw_circle("green", 300, 120, 50)
 draw_rhombus("yellow", -250, -50)
 draw_parallelogram("blue", -100, -50)
-draw_trapezoid("green", 50, -50)
-draw_oval("red", 200, -50)
+draw_trapezoid("green", 80, 0)
+draw_oval("red", 320, -100)
 
 turtle.hideturtle()
 turtle.done()
