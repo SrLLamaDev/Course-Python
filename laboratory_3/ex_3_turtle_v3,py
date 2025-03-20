@@ -1,7 +1,10 @@
 import turtle
 import math
 
-# Solicitar datos al usuario
+# Solicitar datos al usuarioaa
+'''
+view more about documentation of python, for use protocol python are deprecated, find the solution in other version of python: this is note
+'''
 x, y = map(float, input("Ingrese el centro (x y): ").split())
 radio = float(input("Ingrese el radio: "))
 
