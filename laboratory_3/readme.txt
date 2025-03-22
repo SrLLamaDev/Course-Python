@@ -1,4 +1,7 @@
 laboratory_3
+**********************************************
+ESPAÑOL
+**********************************************
 ex_1_turtle
     Codigo para realizar un triangulo
 ex_2_turtle
@@ -12,3 +15,19 @@ ex_4_turtle
     Escribe letras llamando funciones
 ex_5_turtle
     Dibuja figuras 
+**********************************************
+ENGLISH
+**********************************************
+ex_1_turtle
+    Code to make a triangle
+ex_2_turtle
+    Code to draw 4 arrows
+ex_3_turtle
+    Code shows the circle and its area
+Input:
+    Enter the coordinates of the circle's center: 0 0
+    Enter the radius: 100
+ex_4_turtle
+    Write letters by calling functions
+ex_5_turtle
+    Draw shapes
