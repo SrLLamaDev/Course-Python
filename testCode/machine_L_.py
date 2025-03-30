@@ -1,3 +1,10 @@
+'''
+This program simulates the pressing of the 'L' key on a keyboard using the pynput library.
+'''
+#? Use the following command to install the required libraries:
+#! pip install pyautogui
+#! pip install pynput
+
 from pynput.keyboard import Controller
 import time
 
