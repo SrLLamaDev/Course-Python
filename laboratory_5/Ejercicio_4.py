@@ -1,3 +1,4 @@
+#ejercicio 5
 def es_primo(n):
     """Verifica si un número es primo."""
     if n < 2:
