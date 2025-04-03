@@ -1,4 +1,3 @@
-#ejercicio 5
 def es_primo(n):
     """Verifica si un número es primo."""
     if n < 2:
@@ -8,22 +7,12 @@ def es_primo(n):
             return False
     return True
 
-def fibonacci_primos(n):
-    """Encuentra el enésimo número primo en la serie de Fibonacci."""
-    fib = [0, 1]  # Serie de Fibonacci inicial
-    primos_fib = []  # Lista de números primos en Fibonacci
+# Generar lista de primos entre 2 y 1000
+primos = [n for n in range(2, 1001) if es_primo(n)]
 
-    while len(primos_fib) < n:
-        fib.append(fib[-1] + fib[-2])  # Generar el siguiente Fibonacci
-        if es_primo(fib[-1]):  # Verificar si es primo
-            primos_fib.append(fib[-1])
+# Imprimir encabezado
+print("Los primeros 1000 números primos son:")
 
-    return primos_fib[n - 1]  # Devolver el enésimo primo en Fibonacci
-
-# Leer múltiples entradas y procesar cada una
-while True:
-    try:
-        k = int(input().strip())  # Leer el valor de entrada
-        print(fibonacci_primos(k))
-    except EOFError:  # Manejo del fin de entrada
-        break
+# Imprimir los primos con 10 números por línea
+for i in range(0, len(primos), 10):
+    print(" ".join(map(str, primos[i:i+10])))
