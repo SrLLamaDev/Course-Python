@@ -1,0 +1,20 @@
+FUNCIÓN reemplazar_decenas(numeros):
+    Crear una copia de la lista llamada resultado
+
+    FUNCIÓN reemplaza_decena(num, nueva_decena):
+        parte_superior ← num DIVIDIDO ENTRE 100 (parte izquierda del número)
+        unidad ← num MÓDULO 10 (último dígito del número)
+        RETORNAR parte_superior * 100 + nueva_decena * 10 + unidad
+
+    N ← longitud de numeros
+
+    PARA i DESDE 0 HASTA N - 1:
+        SI numeros[i] ES MAYOR O IGUAL A 10 ENTONCES:
+            decena ← (numeros[i] DIVIDIDO ENTRE 10) MÓDULO 10
+
+            siguiente ← (i + 1) MÓDULO N  // índice circular
+
+            SI resultado[siguiente] ES MAYOR O IGUAL A 10 ENTONCES:
+                resultado[siguiente] ← reemplaza_decena(resultado[siguiente], decena)
+
+    RETORNAR resultado
