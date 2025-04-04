@@ -1,5 +1,4 @@
 #Ejercicio 5
-#Yamil Navia Yauli
 #Obra de arte :v (ojalá)
 import turtle
 v = turtle.Screen()

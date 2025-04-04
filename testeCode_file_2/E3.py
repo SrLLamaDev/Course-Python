@@ -1,4 +1,3 @@
-#Yamil Navia yauli
 #Ejercicio número 3
 import turtle
 v = turtle.Screen()

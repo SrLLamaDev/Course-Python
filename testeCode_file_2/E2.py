@@ -1,5 +1,4 @@
 #Ejercicio número 2
-#Yamil Navia Yauli
 import turtle
 v = turtle.Screen()
 v.bgcolor("#3D5BA2")
