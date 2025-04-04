@@ -10,7 +10,7 @@ b = turtle.Turtle()
 b.color("#800080")
 b.pensize(3)
 #Acomodar
-
+b.speed(700)
 #Triangulo equilatero
 b.fillcolor("#FF00FF")
 b.begin_fill()
@@ -35,6 +35,8 @@ b1.up()
 b1.fd(10)
 b1.down()
 #Triangulo equilatero
+b.speed(700)
+b1.speed(700)
 b1.fillcolor("#FF00FF")
 b1.begin_fill()
 b1.bk(100)
@@ -51,6 +53,8 @@ b1.end_fill()
 #------------------------------
 #Fig b2 - Triangulo
 b2 = turtle.Turtle()
+b2.speed(700)
+
 b2.color("#800080")
 b2.pensize(3)
 #Acomodar
@@ -74,6 +78,8 @@ b2.end_fill()
 #------------------------------
 #Fig b3 - Triangulo
 b3 = turtle.Turtle()
+b3.speed(700)
+
 b3.color("#800080")
 b3.pensize(3)
 #Acomodar
@@ -98,6 +104,8 @@ b3.end_fill()
 #Montañas
 #Fig 1 - Triangulo
 a = turtle.Turtle()
+a.speed(700)
+
 a.color("#800080")
 a.pensize(3)
 #Acomodar
@@ -119,6 +127,8 @@ a.end_fill()
 #-------------------------
 #Fig 2 - Triangulo
 a2 = turtle.Turtle()
+a2.speed(700)
+
 a2.color("#800080")
 a2.pensize(3)
 #Acomodar
