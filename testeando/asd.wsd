@@ -1,0 +1,10 @@
+@startuml
+actor "Víctima" as V
+actor "Policía" as P
+
+rectangle "Módulo de Denuncias" {
+    V --> (Realizar denuncia anónima)
+    V --> (Usar botón de emergencia)
+    P --> (Gestionar denuncias)
+}
+@enduml

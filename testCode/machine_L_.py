@@ -18,10 +18,10 @@ time.sleep(2)
 
 # Presionar y soltar la tecla 'L' 100 veces
 # Press and release the 'L' key 100 times
-for _ in range(4000):
+for _ in range(10000):
     keyboard.press('l')
     keyboard.release('l')
-    time.sleep(0.05)  # Pequeña pausa entre cada pulsación
+    time.sleep(0.03)  # Pequeña pausa entre cada pulsación
                         # Small pause between each press
 
 print("Se presionó la tecla 'L' 100 veces")
